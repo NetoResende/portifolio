@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<htm lang="pt-br
+">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style type="text/tailwindcss">
+        @custom-variant dark (&:where(.dark, .dark *)); 
+
+        @theme {
+            --color-cinza: #121212;
+            --color-cinza-claro: #1a1a1a;
+            --color-rosa: #332aa8;
+            --color-green: #0c4d0a;
+        }
+    </style>
+    <style>
+        *{
+            font-family: "Roboto Slab", serif;
+        }
+    </style>
+</head>
+<div class="bg-[#121212] text-white">
+    <!-- tema de fundo com efeito -->
+    <!-- <div class="min-h-screen w-full fixed z-10">
+        <div
+          class="absolute inset-0 z-0"
+          style="background: radial-gradient(125% 125% at 50% 100%, #0d0d14 40%, #10096b 100%)">
+        </div>
+    </div> -->
+<!-- header  -->
+    <header class="w-full px-4 py-6 flex justify-between items-center absolute top-0  z-30 lg:px-15 
+         xl:px-[140px] xl:py-[30px]"> 
+        <a href="##">   
+            <h1 class="text-[20px] font-bold 
+                md:text-[24px]
+                xl:text-[30px] hidden">Seu Nome</h1>
+        </a>
+        <nav class=" flex gap-4 lg:pr-4 xl:gap-6">
+            <a href="##"><box-icon class="fill-cinza hover:scale-180 duration-150 hover:fill-green-600" type='logo' name='github'></box-icon></a>
+            <a href="##"><box-icon class="fill-cinza hover:scale-180 duration-150 hover:fill-green-600" type='logo' name='linkedin'></box-icon></a>
+            <a href="##"><box-icon class="fill-cinza hover:scale-180 duration-150 hover:fill-green-600" type='logo' name='instagram'></box-icon></a>
+        </nav>
+    </header>
+<!--  section de imagem e conteudo -->
+    <section class="flex flex-col items-end  lg:flex-row-reverse lg:px-15 lg:justify-between lg:items-center   xl:px-[140px] relative z-10">
+
+            <img class="w-[260px] h-[460px] bg-blue-900 rounded-bl-[30px] flex justify-center  items-center 
+            lg:rounded-br-[30px]
+            xl:w-[450px] xl:h-[650px] xl:object-cover" src="https://avatars.githubusercontent.com/u/112215818?v=4" alt="imagem de capa">
+       
+
+        <div class="text-center px-9 mt-6 
+            lg:w-[400px] lg:text-left lg:px-0
+            xl:w-[600px] ">
+
+            <h3 class="font-bold text-[24px] text-green-300 mb-1 xl:text-[40px]">Seja bem vindo(a)</h3>
+            <h2 class="font-bold text-[36px] mb-10 xl:text-[64px]">Eu sou <span class="border-b-[3px] border-green-300">Neto Resende</span></h2>
+            <p class="leading-[32px] mb-10 xl:text-[22px] xl:leading-[40px]">Localizado em Fortaleza-CE, Eu sou um desenvolvedor Font End apaixonado por construir aplicações web que impactam positivamente na vida das pessoas e trazem maior agilidade e satisfação!.</p>
+            
+            <a href="##" class="leading-[50px] px-3 py-3 text-[30px]  inline-block relative group hover:text-cinza duration-150 ">
+                <div class="flex gap-4 items-center">
+                    <box-icon name='whatsapp' type='logo' class= "w-[50px] h-[50px] fill-white group-hover:fill-cinza leading-0" ></box-icon>
+                    Vamos conversar
+                </div>
+                <div class="w-full h-[3px] bg-green-300  absolute bottom-0 left-0 group-hover:h-full duration-150 -z-10 rounded-t-[10px]" ></div>
+            </a>
+        </div>
+    </section>
+    
+    <div class="w-full h-[2px] mt-20 bg-gradient-to-r from-green-200/0 via-green-300/50 to-green-600/0"></div>
+
+    <section class="flex gap-4 justify-center fill-green-100 py-[50px] *:w-[35px] *:h-[35px] md:gap-5 lg:gap-7 lg:*w-[50px] lg:*h-[50px] xl:*:w-[70px] xl:*:h-[70px] xl:py-[80px] xl:gap-14 *:duration-150" >
+
+        <box-icon type='logo' name='html5'
+            class="hover:fill-green-500 hover:scale-110 drop-shadow-lg drop-shadow-transparent hover:drop-shadow-rosa/50"></box-icon>
+
+            <box-icon type='logo' name='css3'
+            class="hover:fill-green-500 hover:scale-110 drop-shadow-lg drop-shadow-transparent hover:drop-shadow-rosa/50"></box-icon>
+
+            <box-icon type='logo' name='tailwind-css'
+            class="hover:fill-green-500 hover:scale-110 drop-shadow-lg drop-shadow-transparent hover:drop-shadow-rosa/50"></box-icon>
+
+            <box-icon type='logo' name='javascript'
+            class="hover:fill-green-500 hover:scale-110 drop-shadow-lg drop-shadow-transparent hover:drop-shadow-rosa/50"></box-icon>
+
+            <box-icon type='logo' name='react'
+            class="hover:fill-green-500 hover:scale-110 drop-shadow-lg drop-shadow-transparent hover:drop-shadow-rosa/50"></box-icon>
+
+            <box-icon type='logo' name='nodejs'
+            class="hover:fill-green-500 hover:scale-110 drop-shadow-lg drop-shadow-transparent hover:drop-shadow-rosa/50"></box-icon>
+
+            <box-icon type='logo' name='postgresql'
+            class="hover:fill-green-500 hover:scale-110 drop-shadow-lg drop-shadow-transparent hover:drop-shadow-rosa/50"></box-icon>
+
+            <box-icon type='logo' name='figma'
+            class="hover:fill-green-500 hover:scale-110 drop-shadow-lg drop-shadow-transparent hover:drop-shadow-rosa/50"></box-icon>
+    </section>
+
+    <section >
+        <h2 class="px-4 font-bold text-[32px] lg:px-15 lg:py-15 lg:text-[36px] xl:text-[60px] xl:px-[140px]">Tecnologias</h2>
+
+        <div class="px-4 py-10 grid grid-cols-2 lg:grid-cols-3 lg:px-15 lg:text-left xl:px-[140px] xl:gap-[50px] gap-[30px] text-center">
+            <div>
+                <h3 class="fon-bold text-[32px] text-green-300 mb-[10px]">HTML</h3>
+                <p class="text-green-200">2 anos de experiência</p>
+            </div>
+            <div>
+                <h3 class="fon-bold text-[32px] text-green-300 mb-[10px]">CSS</h3>
+                <p class="text-green-200">2 anos de experiência</p>
+            </div>
+            <div>
+                <h3 class="fon-bold text-[32px] text-green-300 mb-[10px]">Javascript</h3>
+                <p class="text-green-200">2 anos de experiência</p>
+            </div>
+            <div>
+            <h3 class="fon-bold text-[32px] text-green-300 mb-[10px]">React</h3>
+                <p class="text-green-200">2 anos de experiência</p>
+            </div>
+            <div>
+                <h3 class="fon-bold text-[32px] text-green-300 mb-[10px]">Node</h3>
+                <p class="text-green-200">2 anos de experiência</p>
+            </div>
+            <div>
+                <h3 class="fon-bold text-[32px] text-green-300 mb-[10px]">Vue js3</h3>
+                <p class="text-green-200">1/5 ano de experiência</p>
+            </div>
+            <div>
+                <h3 class="fon-bold text-[32px] text-green-300 mb-[10px]">TypeScript</h3>
+                <p class="text-green-200">2 anos de experiência</p>
+            </div>
+            <div>
+                <h3 class="fon-bold text-[32px] text-green-300 mb-[10px]">MySql</h3>
+                <p class="text-green-200">2 anos de experiência</p>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="mt-20 px-4 lg:px-15 lg:pb-[100px] xl:px-[140px] ">
+        <div class=" flex justify-between items-center lg:mb-20 xl:py-[50px]">
+            <h2 class="font-bold text-[32px] lg:text-[36px] xl:text-[60px]">Projetos</h2>
+
+            
+                <a href="##" class="leading-[50px] px-3 py-3 text-[30px]  inline-block relative group hover:text-cinza z-0 duration-150 ">
+                    Vê todos
+                    <div class="w-full h-[3px] bg-green-300  absolute bottom-0 left-0 group-hover:h-full duration-150 -z-10 rounded-t-[10px]" ></div>
+                </a>
+        </div>
+        <div class="mt-20 grid gap-4 lg:grid-cols-2 lg:mt-[50px] lg:gap-x-[30px] lg:gap-y-[70px] xl:gap-8">
+            <div >
+                <img src="./image/image 1.png" alt="Imagem do projeto" class="w-full block mb-5 duration-150 hover:scale-101 drop-shadow-lg drop-shadow-transparent hover:drop-shadow-rosa/50">
+                <h5 class="font-bold text-[24px] mb-10 xl:text-[32px]">Nome do projeto</h5>
+                <div class="flex gap-4 uppercase ">
+                    <strong>html</strong>
+                    <strong>css</strong>
+                </div>
+            </div>
+            <div >
+                <img src="./image/image 1.png" alt="Imagem do projeto" class="w-full block mb-5 duration-150 hover:scale-101 drop-shadow-lg drop-shadow-transparent hover:drop-shadow-rosa/50">
+                <h5 class="font-bold text-[24px] mb-10 xl:text-[32px]">Nome do projeto</h5>
+                <div class="flex gap-4 uppercase">
+                    <strong>html</strong>
+                    <strong>css</strong>
+                </div>
+            </div>
+            <div >
+                <img src="./image/image 1.png" alt="Imagem do projeto" class="w-full block mb-5 duration-150 hover:scale-101 drop-shadow-lg drop-shadow-transparent hover:drop-shadow-rosa/50">
+                <h5 class="font-bold text-[24px] mb-10 xl:text-[32px]">Nome do projeto</h5>
+                <div class="flex gap-4 uppercase">
+                    <strong>html</strong>
+                    <strong>css</strong>
+                </div>
+            </div>
+            <div > 
+                <img src="./image/image 1.png" alt="Imagem do projeto" class="w-full block mb-5 duration-150 hover:scale-101 drop-shadow-lg drop-shadow-transparent hover:drop-shadow-rosa/50">
+                <h5 class="font-bold text-[24px] mb-10 xl:text-[32px]">Nome do projeto</h5>
+                <div class="flex gap-4 uppercase">
+                    <strong>html</strong>
+                    <strong>css</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="px-4 py-10 bg-cinza-claro mt-[70px]
+    lg:flex lg:justify-between lg:px-15 lg:pb-[100px] xl:px-[140px]
+    ">
+        <div class="mb-[50px] lg:w-[400px] xl:w-[550px]">
+            <h2 class="font-bold text-[30px] mb-5 lg:text-[36px] xl:text-[48px] xl:mb-8" >Contato</h2>
+            <p class="leading-[32px] mb-10 xl:text-[22px]"> Eu adoraria ouvir sobre seu projeto e mostrar como posso ajudar. Preencha o formulário ao lado e eu responderei o mais breve possível.</p>
+        </div>
+        <form class="lg:w-[400px] xl:w-[550px]">
+            <div class="relative h-[40px] mb-4 xl:mb-8"> 
+                <input type="text" placeholder="Digite seu nome" required
+                 class="peer relative z-10 bg-transparent h-[40px] pl-4 outline-none border-b-2 border-white/30 focus:border-green-400 w-full block placeholder:text-transparent focus:placeholder:text-white/30 transition-colors duration-150"
+                ></input>
+                <label for="nome"
+                    class="uppercase text-[12px] xl:text-[18px] absolute left-4 bottom-1/2 translate-y-1/2 transition-all peer-focus:bottom-full peer-focus:-translate-y-0 peer-focus:text-[10px]"
+                >Nome</label>
+            </div>
+            <div class="relative h-[40px] mb-4"> 
+                <input type="email" placeholder="netoresende@gmial" required
+                 class="peer relative z-10 bg-transparent h-[40px] pl-4 outline-none border-b-2 border-white/30 focus:border-green-400 w-full block placeholder:text-transparent focus:placeholder:text-white/30 transition-colors duration-150"
+                ></input>
+                <label for="email"
+                    class="uppercase text-[12px] xl:text-[18px] absolute left-4 bottom-1/2 translate-y-1/2 transition-all peer-focus:bottom-full peer-focus:-translate-y-0 peer-focus:text-[10px]"
+                >E-mail</label>
+            </div>
+            <div class="relative h-[120px] mb-4 xl:mt-8">
+                <textarea name="message" id="message" placeholder="Deixe sua mensagem"
+                      class="peer relative z-10 bg-transparent h-[120px] pl-4 outline-none border-b-2 border-white/30 focus:border-green-400 w-full block placeholder:text-transparent focus:placeholder:text-white/30 transition-colors duration-150"
+                ></textarea>
+                <label for="message" id="message"
+                       class="uppercase text-[12px] xl:text-[18px] absolute left-4 bottom-[95%] translate-y-1/2 transition-all peer-focus:bottom-full peer-focus:-translate-y-0 peer-focus:text-[10px]"
+                >Mensagem</label>
+            </div>
+            <div class="flex justify-center xl:mt-8">
+                <div class="w-[100px] relative group xl:w-[200px]">
+                    <button class="w-full leading-[50px] text-center xl:text-[18px] bg-transparent block hover:text-cinza duration-150 relative z-10">
+                        Enviar
+                    </button>
+                    <div class="w-full h-[3px] bg-green-400 absolute bottom-0 left-0 group-hover:h-full duration-150 rounded-t-[10px]"></div>
+                </div>
+            </div>
+
+        </form>
+        
+    </footer>
+    <div class="w-full h-[2px] mt-0 bg-gradient-to-r from-green-200/0 via-green-300/50 to-green-600/0"></div>
+
+    <div class="w-full flex flex-col gap-4 px-4 py-15  bg-cinza-claro text-center md:gap-8 lg:flex-row lg:justify-between lg:px-15 lg:py-20 xl:px-[140px] xl:py-[80px]" >
+
+        <h2 class="font-bold text-[30px] xl:text-[48px] text-green-400 ">Neto Resende</h2>
+
+        <div class=" flex gap-8 justify-center lg:pr-4 xl:gap-[50px]">
+            <a href="##"><box-icon class="w-[40px] h-[40px] xl:w-[60px] xl:h-[60px] fill-green-200 hover:scale-150 duration-150 hover:border-b-green-300" type='logo' name='github'></box-icon></a>
+            <a href="##"><box-icon class="w-[40px] h-[40px] xl:w-[60px] xl:h-[60px] fill-green-200 hover:scale-150 duration-150 hover:border-green-300" type='logo' name='linkedin'></box-icon></a>
+            <a href="##"><box-icon class="w-[40px] h-[40px] xl:w-[60px] xl:h-[60px] fill-green-200 hover:scale-150 duration-150 hover:border-green-300" type='logo' name='instagram'></box-icon></a>
+        </div>
+    </div>
+
+     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</html>
